@@ -1,25 +1,31 @@
-
 # README
 
 This README will guide you to make this application up and running.
 
 * Prerequisites:
-ruby: 3.1.2, rails: 7.0.3, postgres
+```
+ruby: 3.1.2
+rails: 7.0.3
+postgres
+```
 
 * Database creation:
+
+```
 rails db:setup
+```
 
-* Run the server
-
-``bundle install``
-
-``rails server``
+* Run the server 
+```
+bundle install
+rails server
+```
 
 * How to run the test suite
 
-``
+```
 bundle exec rspec
-``
+```
 
 
 * About this application:
